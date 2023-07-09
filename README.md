@@ -93,6 +93,18 @@ providing ideas, spreading a word...  *Many thanks to all of you!*
 
 ## History
 
+### 0.10.0 ()
+
+ - use integers in Lua5.3
+ - honour CPPFLAGS during build
+ - add initial support to Lua5.4
+ - do not error out with Gtk4
+ - migrate CI to GitHub Actions
+ - add support for meson build and Visual Studio 2013
+ - use g_memdup2 if available
+ - do not override PKG_CONFIG variable if it is set at build time
+ - update rockspec and add support for scm rockspec
+
 ### 0.9.2 (9-Oct-2017)
 
  - fix assorted crashes in closure callback invocation code
